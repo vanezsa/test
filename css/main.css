@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700");
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700");
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #505050; }
+
+header {
+  position: relative;
+  text-align: center; }
+
+.card {
+  position: relative;
+  text-align: left;
+  border: none;
+  box-shadow: 0 2px 40px rgba(0, 0, 0, 0.2); }
+
+.top-left {
+  position: absolute;
+  top: 19px;
+  left: 19px; }
+
+.bottom-right {
+  position: absolute;
+  bottom: 19px;
+  right: 19px; }
+
+a, a:hover {
+  font-weight: 700;
+  color: #ECB84C; }
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 200px;
+  color: #fff;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5); }
+
+h2, .number-text {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 400px;
+  color: #4E5665; }
+
+h5 {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  line-height: 25px;
+  font-weight: 400px;
+  color: #4E5665; }
+
+.custom-margin {
+  margin-top: -325px; }
+
+.desc-text {
+  font-size: 14px;
+  font-weight: 700;
+  color: #909090; }
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: #909090;
+  line-height: 19px;
+  font-size: 14px; }
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link:hover {
+  color: #4E5665;
+  border-bottom: 4px solid #ECB84C; }
+
+.border-bottom {
+  border-bottom: 1px solid rgba(208, 212, 216, 0.5); }
+
+.navbar {
+  padding: .5rem 0rem; }
+
+@media (max-width: 1199.98px) {
+  .custom-margin {
+    margin-top: -240px; } }
+@media (max-width: 991.98px) {
+  .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link:hover {
+    border-bottom: none; }
+
+  .pr-3 {
+    padding-right: 0rem !important; }
+
+  .custom-margin {
+    margin-top: 0px; } }
+@media (max-width: 767.98px) {
+  h1 {
+    font-size: 100px; } }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
+
+$font-stack1: 'Karla', sans-serif;
+$font-stack2: 'Playfair Display', serif;
+$black: #505050;
+$white: #fff;
+$grey1: #4E5665;
+$grey2: #909090;
+$yellow: #ECB84C;
+
+body {
+    font-family: $font-stack1;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    color: $black;
+} 
+
+header {
+    position: relative;
+    text-align: center;
+}
+
+.card {
+    position: relative;
+    text-align: left;
+    border: none;
+    box-shadow: 0 2px 40px rgba(0,0,0, .2);
+}
+
+.top-left {
+    position: absolute;
+    top: 19px;
+    left: 19px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 19px;
+    right: 19px;
+}
+a, a:hover {
+    font-weight: 700;
+    color: $yellow;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: $font-stack2;
+    font-weight: 700;
+    font-size: 200px; 
+    color: $white;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2, .number-text {
+    font-family: $font-stack2;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 400px;
+    color: $grey1;
+}
+
+h5 {
+    font-family: $font-stack2;
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: 400px;
+    color: $grey1;
+}
+
+.custom-margin {
+    margin-top: -325px;
+}
+.desc-text {
+    font-size: 14px;
+    font-weight: 700;
+    color: $grey2;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: $font-stack1;
+    font-weight: 700;
+    color: $grey2;
+    line-height: 19px;
+    font-size: 14px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link:hover{
+    color: $grey1;
+    border-bottom: 4px solid $yellow;
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgba(208, 212, 216, .5);
+}
+
+.navbar {
+    padding: .5rem 0rem;
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { 
+    .custom-margin {
+        margin-top: -240px;;
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link:hover {
+        border-bottom: none;
+    }
+
+    .pr-3 {
+        padding-right: 0rem!important;
+    }
+
+    .custom-margin {
+        margin-top: 0px;;
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+    h1 {font-size: 100px;}
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+
+}
