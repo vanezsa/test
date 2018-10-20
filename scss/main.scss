@@ -73,6 +73,10 @@ h5 {
     color: $grey1;
 }
 
+h6 {
+    text-transform: uppercase;
+}
+
 .custom-margin {
     margin-top: -325px;
 }
@@ -103,6 +107,67 @@ h5 {
     padding: .5rem 0rem;
 }
 
+.container-fluid {
+    padding: 0px;
+}
+
+.form-control {
+    height: 60px;
+    background-color: $white;
+    border: 1px solid $black;
+    font-size: 15px;
+    font-family: $font-stack1;
+    color: $grey2;
+    border-radius: 0px;
+    text-transform: uppercase;
+}
+
+.btn-outline-secondary, .btn-outline-secondary:hover {
+    background-color: $yellow;
+    text-transform: uppercase;
+    color: $white;
+    padding: 0 40px;
+    border: 1px solid $yellow;
+}
+
+.btn {
+    border-radius: 0rem;
+}
+
+.social-icons [class*="fa fa-"] {
+    border-radius: 16px;
+    color: #fff;
+    height: 32px;
+    width: 32px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #3b5998;
+}
+
+footer {
+    background-color: #F8F8F8;
+    border-top: 1px solid #D8D8D8;
+    font-size: 14px;
+    font-family: $font-stack1;
+    color: $black;
+}
+
+footer a, a:hover {
+    font-weight: 400;
+    color: $black;
+}
+
+footer [class*="fa fa-"] {
+    background-color: #D3D3D3;
+    color: $white;
+    font-size: 10px;
+    height: 16px;
+    width: 16px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 16px;
+}
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) { 
     .custom-margin {
